@@ -11,7 +11,7 @@ public class FilterAthletes extends Athlete{
 	public static Athlete cyclingAthletes[] = new Athlete[8];
 	public static Athlete swimmingAthletes[] = new Athlete[8];
 	public static Athlete runningAthletes[] = new Athlete[8];
-
+// calls the constructor
 	public FilterAthletes(String athId, String name, int age, String state, char type, int points) {
 		super(athId, name, age, state, type, points);
 		// TODO Auto-generated constructor stub
@@ -24,6 +24,7 @@ public class FilterAthletes extends Athlete{
 	
 	public void FilterNow(char type) {
 		int count = 0,j=0;
+		//takes the number of players randomly from 4 to 8
 		Random random = new Random();
 		int maxCount = random.nextInt(8-4)+4;
 		
