@@ -10,7 +10,7 @@ public class AthleteDatabase extends Ozlympic{
 	public AthleteDatabase(){
 		
 		athlete = new Athlete[26];
-		athlete[0] = new Athlete("A01", "AJohn",22, "AState",'C',0);
+		athlete[0] = new Athlete("A01", "Adrian",22, "AState",'C',0);
 		athlete[1] = new Athlete("B01", "BJohn",22, "BState",'S',0);
 		athlete[2] = new Athlete("C01", "CJohn",22, "CState",'R',0);
 		athlete[3] = new Athlete("D01", "DJohn",22, "DState",'A',0);
