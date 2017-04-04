@@ -20,7 +20,7 @@ public class Points extends Ozlympic {
 		this.rwinner2Id = rwinner2Id;
 		this.rwinner3Id = rwinner3Id;
 		}
-	
+	/* This method would help to calculate the points for the players involved the game*/
 	public void calculatePoints() {
 
 		//System.out.println(rwinner1Id + "-" + rwinner2Id + "-" + rwinner3Id + " " + swinner1Id + "-" + swinner2Id + "-"
