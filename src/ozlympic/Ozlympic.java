@@ -117,7 +117,7 @@ public class Ozlympic {
 			input = in.nextInt();
 			
 			Athlete athlete[] = new Athlete[8];
-			
+			//creates an object for AthleteDatabase
 			AthleteDatabase a1 = new AthleteDatabase();
 			athlete = AthleteDatabase.getAthlete();
 			FilterAthletes fa1 = new FilterAthletes(athlete);
