@@ -29,14 +29,11 @@ public class FilterAthletes extends Athlete{
 		int maxCount = random.nextInt(8-4)+4;
 		
 		if (type == 'C') {
-			/*athlete
-			 * count
-			 * maxcount
-			 * j
-			 */
+			
 			for(int i = 0; i < athlete.length && count < maxCount ; i++) {
 				if ((athlete[i].getType() == 'C') || 
 						(athlete[i].getType() == 'A')) {
+					//calls completemethod
 					athlete[i].compete(500, 800);
 					//System.out.println("type" + athlete[i].getType() + " " + " " + athlete[i].getAthId() + athlete[i].getTime());
 					cyclingAthletes[j] = athlete[i];
@@ -51,6 +48,7 @@ public class FilterAthletes extends Athlete{
 			for(int i = 0; i < athlete.length && count < maxCount ; i++) {
 				if ((athlete[i].getType() == 'S') || 
 						(athlete[i].getType() == 'A')) {
+					//calls competemethod
 					athlete[i].compete(100, 200);
 					//System.out.println("type" + athlete[i].getType() + " " + " " + athlete[i].getAthId() + athlete[i].getTime());
 					swimmingAthletes[j] = athlete[i];
@@ -65,6 +63,7 @@ public class FilterAthletes extends Athlete{
 			for(int i = 0; i < athlete.length && count < maxCount ; i++) {
 				if ((athlete[i].getType() == 'R') || 
 						(athlete[i].getType() == 'A')) {
+					//calls compete methos
 					athlete[i].compete(500, 800);
 					//System.out.println("type" + athlete[i].getType() + " " + " " + athlete[i].getAthId() + athlete[i].getTime());
 					runningAthletes[j] = athlete[i];
