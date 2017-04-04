@@ -196,9 +196,10 @@ public class Ozlympic {
 			}
 			
 			for (int i = 0; i <= runningCount; i++) {
+				//sort the time to predict winner
 				Arrays.sort(time);
 			}
-			
+			//assigns times to the winners
 			timeLength = time.length;
 			winnerTime = time[timeLength-1];
 			secondTime = time[timeLength-2];
@@ -378,7 +379,7 @@ public class Ozlympic {
 		
 	}
 	
-	
+	//display the final results
 	public static void finalResults() {
 		System.out.println("The final results are..");
 		System.out.println("	");
