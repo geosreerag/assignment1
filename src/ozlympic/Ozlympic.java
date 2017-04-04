@@ -30,7 +30,7 @@ public class Ozlympic {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		//calls the main menu console
 		mainMenu();
 			
 	}
@@ -60,6 +60,7 @@ public class Ozlympic {
 		input = in.nextInt();
 		
 		try {
+			//selects differnt case based on user inputs
 			switch (input) {
 			case 1: {
 				selectGame();
@@ -90,7 +91,7 @@ public class Ozlympic {
 
 				System.out.println("Enter a correct choice");
 			}
-
+//exception handling
 		} catch (Exception e) {// handles any exceptions which happens during
 								// runtime and redirects to main menu
 			System.out.println("Please select a valid option!");
