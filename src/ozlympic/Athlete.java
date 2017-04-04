@@ -78,9 +78,10 @@ public class Athlete {
 	public void setPoints(int points) {
 		Points = points;
 	}
-//compete  method
+ // used to run the compete method for the all the event by passing min and max time
 	public void compete(int minTimer, int maxTimer){
 		Random random = new Random();
+		//assign a random time for a player during an event within the defined time frames
 		int finishTimer = random.nextInt(maxTimer-minTimer)+minTimer;
 		this.setTime(finishTimer);
 		
